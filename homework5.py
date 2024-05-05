@@ -1,0 +1,12 @@
+my_list=["Pear","Pineapple","Lemon","Mango","Grape","Kiwi"]
+print(my_list)
+print(my_list[0::5])
+print(my_list[2:5])
+my_list[2]="Papaya"
+print(my_list)
+my_dict={'Pear':'Персик','Pineappele':'Ананас','Lemon':'Лимон','Mango':'Манго','Grape':
+    'Виноград','Kiwi':'Киви'}
+print(my_dict)
+print(my_dict['Grape'])
+my_dict.update({'Avocado':'Авакадо'})
+print(my_dict)
